@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { withRouter, Link } from 'react-router-dom'
+import { withRouter } from 'react-router-dom'
 // API request
 import { showItems, deleteItem } from '../../api/items'
 
@@ -60,13 +60,12 @@ class ShowItems extends Component {
         {/* Compare the signed in user's ID against the owner of this item */}
         {user._id === owner && (
           <>
-            <Button onClick={this.handleDelete}>Delete This Item</Button>
+            <Button onClick={this.handleDelete}>Delete</Button>
             {/* Button with a Link inside should work but is ugly. Better way below. */}
-            <Button><Link to={`/items/${match.params.id}/edit`}>Update Item</Link></Button>
-
+            {/* <Button><Link to={`/items/${match.params.id}/edit`}>Update</Link></Button> */}
             {/* Provide the Button a `onClick` handler & use the history object to redirect the user */}
             <Button onClick={() => history.push(`/items/${match.params.id}/edit`)}>
-              Update Item
+              Update
             </Button>
           </>
         )}
