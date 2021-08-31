@@ -8,7 +8,8 @@ import { Link, NavLink } from 'react-router-dom'
 // JSX defines the NavLinks for our user when they are signed in
 const authenticatedOptions = (
   <Fragment>
-    <NavLink to='/create-item' className='nav-link'>Create Item</NavLink>
+    <NavLink to='/items' className='nav-link'>Items Index</NavLink>
+    <NavLink to='/create-item' className='nav-link'>Add Items</NavLink>
     <NavLink to='/change-password' className='nav-link'>Change Password</NavLink>
     <NavLink to='/sign-out' className='nav-link'>Sign Out</NavLink>
   </Fragment>
