@@ -46,7 +46,11 @@ class IndexItems extends Component {
       // .map gives us back a new array that we can display
       itemJsx = items.map(item => (
         <li key={item._id}>
-          <Link to={`/items/${item._id}`}>{item.description}</Link>
+          <Link to={`/items/${item._id}`}>
+            {item.description}
+          </Link>
+          price: {item.price}
+          quantity: {item.quantity}
         </li>
       ))
     }
