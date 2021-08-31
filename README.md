@@ -57,6 +57,7 @@ The main responsibility of the inventory management system is to be able to trac
 - Axios
 - React.js
 - Bootstrap 5
+- [FakeStoreAPI](https://fakestoreapi.com)
 
 ## Images
 
