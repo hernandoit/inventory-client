@@ -16,7 +16,6 @@ class IndexItems extends Component {
     super(props)
 
     this.state = {
-      // items: []
       items: null
     }
   }
