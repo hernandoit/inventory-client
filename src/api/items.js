@@ -32,7 +32,7 @@ export const indexItems = (user) => {
 }
 
 // GET /items/:id
-export const showItem = (id, user) => {
+export const showItems = (id, user) => {
   return axios({
     url: apiUrl + '/items/' + id,
     // method is optional, default is GET
