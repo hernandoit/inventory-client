@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/%3Crepo-name%3E/static/css/main.237420ea.chunk.css",
-    "main.js": "/%3Crepo-name%3E/static/js/main.7e06f1fe.chunk.js",
-    "main.js.map": "/%3Crepo-name%3E/static/js/main.7e06f1fe.chunk.js.map",
-    "runtime-main.js": "/%3Crepo-name%3E/static/js/runtime-main.6ff59547.js",
-    "runtime-main.js.map": "/%3Crepo-name%3E/static/js/runtime-main.6ff59547.js.map",
-    "static/js/2.5f617887.chunk.js": "/%3Crepo-name%3E/static/js/2.5f617887.chunk.js",
-    "static/js/2.5f617887.chunk.js.map": "/%3Crepo-name%3E/static/js/2.5f617887.chunk.js.map",
-    "index.html": "/%3Crepo-name%3E/index.html",
-    "static/css/main.237420ea.chunk.css.map": "/%3Crepo-name%3E/static/css/main.237420ea.chunk.css.map",
-    "static/js/2.5f617887.chunk.js.LICENSE.txt": "/%3Crepo-name%3E/static/js/2.5f617887.chunk.js.LICENSE.txt"
+    "main.css": "/inventory-client/static/css/main.237420ea.chunk.css",
+    "main.js": "/inventory-client/static/js/main.1b520cf8.chunk.js",
+    "main.js.map": "/inventory-client/static/js/main.1b520cf8.chunk.js.map",
+    "runtime-main.js": "/inventory-client/static/js/runtime-main.4786a72c.js",
+    "runtime-main.js.map": "/inventory-client/static/js/runtime-main.4786a72c.js.map",
+    "static/js/2.5f617887.chunk.js": "/inventory-client/static/js/2.5f617887.chunk.js",
+    "static/js/2.5f617887.chunk.js.map": "/inventory-client/static/js/2.5f617887.chunk.js.map",
+    "index.html": "/inventory-client/index.html",
+    "static/css/main.237420ea.chunk.css.map": "/inventory-client/static/css/main.237420ea.chunk.css.map",
+    "static/js/2.5f617887.chunk.js.LICENSE.txt": "/inventory-client/static/js/2.5f617887.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.6ff59547.js",
+    "static/js/runtime-main.4786a72c.js",
     "static/js/2.5f617887.chunk.js",
     "static/css/main.237420ea.chunk.css",
-    "static/js/main.7e06f1fe.chunk.js"
+    "static/js/main.1b520cf8.chunk.js"
   ]
 }
